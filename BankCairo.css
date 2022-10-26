@@ -1,0 +1,554 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: Cairo , sans-serif;
+    height: 100vh;
+}
+
+.Parent {
+    height: 2945px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+    top: -16px;
+}
+
+.nav1 {
+    background-color: #6D6E71;
+    width: 100%;
+    height: 35px;
+}
+
+ul li {
+    display: inline-block;
+    color: #ffff;
+    padding: 10px;
+    font-size: 11px;
+    font-family: Cairo,sans-serif;
+    
+    
+}
+
+.nav2 {
+    background-color: #414042 ;
+    width: 100%;
+    height: 90px;
+    
+}
+
+.nav2 img {
+    margin-right: 60px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Cairo';
+    margin-right: 20px;
+    font-size: 20px;
+    position: relative;
+    top: -22px;
+}
+
+#Online {
+    float: right;
+    width: 130px;
+    position: relative;
+    top: 27px;
+    right: 56px;
+    color: #ffff;
+    background-color: #f68b1a;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.div1 {
+    background-image:url("Images/TD-UPFRONT-WEB-BANNER.jpg");
+    background-size: 100% 400px;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+#span1,
+#span2 {
+    background-color: #D2CAC7;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+#span1 {
+        position: relative;
+        top: 180px;
+        right: -11px;
+}
+
+#span2 {
+        position: relative;
+        top: 180px;
+        right: -1254px;
+}
+
+.service {
+    display: flex;
+    margin-right: 20px;
+}
+
+.service div {
+    background-color: #f05630;
+    width: 149px;
+    height: 110px;
+    text-align: center;
+    padding-top: 25px;
+    color: #ffff;
+    font-size: 15px;
+    font-family: Cairo, sans-serif;
+}
+
+.service div:hover {
+    background-color: #f47459;
+}
+
+.service  {
+    position: relative;
+    bottom: -240px;
+    left: 420px;
+}
+
+#specialimg {
+    position: relative;
+    top: 135px;
+    right: -10px;
+}
+
+.div2 {
+    background-image: url("Images/bdc-travel-study-banner.jpg");
+    background-size: 100% 400px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.MoreInfo {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 520px;
+    height: 168px;
+    padding: 24px;
+    border-radius: 5px;
+    line-height: 23px;
+    font-family: Cairo, sans-serif;
+    position: relative;
+    top: 92px;
+    right: -695px;
+    
+}
+
+.MoreInfo b {
+    font-size: x-large;
+}
+
+#p-info {
+    font-size: 15px;
+}
+
+#Info ,
+#Insimg button {
+    background-color: #f68b1a;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    color: #ffff;
+    width: 100px;
+    font-size: 16px;
+}
+
+#Info:hover,
+#Online:hover,
+#Insimg button:hover {
+    background-color: #f05630;
+}
+
+.div4 {
+    display: flex;
+    font-family: Cairo, sans-serif;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+h3 {
+    position: relative;
+    top: -66px;
+    right: -39px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#img1::before,
+#img2::before {
+    content: '';
+    background-color: #f57f32;
+    width: 625px;
+    height: 235px;
+    position: absolute;
+    opacity: 0.6;
+}
+
+#img1 {
+    position: relative;
+    top: -87px;
+}
+
+#img2 {
+    position: relative;
+    top: -104px;
+}
+
+.div3 {
+    position: relative;
+    top:-50px;
+}
+
+#img1 b ,
+#img2 b ,
+#img3 b ,
+#Insimg b{
+    color: #ffff;
+    font-size: larger;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+
+#img1 b,
+#img2 b {
+    position: relative;
+    top: -160px;
+    right: 611px;
+}
+
+#img3 b {
+    position: relative;
+    top: -100px;
+    right: 611px;
+}
+
+#img1 button,
+#img2 button,
+#img3 button,
+#touch button {
+    font-size: larger;
+    border: none;
+    background-color: #ffff;
+    color: #f57f32;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#img1 button,
+#img2 button,
+#img3 button {
+    width: 150px;
+    height: 45px;
+}
+
+
+#img1 button {
+        position: relative;
+        top: -100px;
+        right: 870px;
+}
+
+#img2 button {
+    position: relative;
+    top: -100px;
+    right: 914px;
+}
+
+#img3 button {
+    position: relative;
+    top: -45px;
+    right: 910px;
+}
+
+#img1 button:hover,
+#img2 button:hover,
+#img3 button:hover,
+#touch button:hover {
+    color: #ffff;
+    background-color: #f57f32;
+}
+
+#img3 {
+    position: relative;
+    top: -590px;
+    left: 620px;
+}
+
+#img3::before {
+    content: '';
+    background-color: #000000;
+    width: 625px;
+    height: 150px;
+    position: absolute;
+    opacity: 0.6;
+    top: 320px;
+}
+
+#img4 {
+    position: relative;
+    top: -620px;
+    right: -66px;
+}
+
+#withus {
+    background-image: url("Images/webbanner-mobile.jpg");
+    background-size: 100% 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -710px;
+    padding-right: 20px;
+}
+
+#img4 h3 {
+    position: relative;
+    top: -72px;
+    right: -45px;
+}
+
+#withus p {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 70px;
+    letter-spacing: 0.7px;
+    position: absolute;
+    top: 43px;
+    right: 880px;
+    width: 400px;
+}
+
+#withus #imgapple {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+}
+
+#withus #imggoogle {
+    position: absolute;
+    top: 160px;
+    left: 205px;
+}
+
+#divtouch1 {
+    margin: 0 50px;
+    position: relative;
+    
+}
+
+
+#touch {
+    background-color: #f05630;
+    width: 620px;
+    height: 360px;
+    text-align: center;
+    position: absolute;
+    top: -730px;
+}
+
+#touch #imgtouch1 {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    top: 47px;
+    left: 256px;
+}
+
+#divtouch2 {
+    position: absolute;
+    top: -781px;
+}
+
+#touch b {
+    position: absolute;
+    top: 187px;
+    right: 255px;
+    font-size: x-large;
+}
+
+#touch b,
+#touch p {
+    color: #ffff;
+}
+
+#touch p {
+    position: absolute;
+    top: 210px;
+    right: 252px;
+}
+
+#touch button {
+    width: 180px;
+    position: absolute;
+    top: 260px;
+    right: 212px;
+}
+
+#Insimg {
+    background-image: url("Images/zero-home.png");
+    background-size:  620px 360px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+#Parent-Ins {
+    position: relative;
+}
+
+#Ins {
+    position: absolute;
+    top: -780px;
+    right: 470px;
+}
+
+#Insimg {
+    position: relative;
+    top: -730px;
+    right: -703px;
+}
+
+#Insimg::before {
+    content: '';
+    background-color: #000000;
+    width: 620px;
+    height: 150px;
+    position: absolute;
+    opacity: 0.6;
+    top: 210px;
+}
+
+#Insimg b {
+    position: absolute;
+    top: 235px;
+    left: 26px;
+}
+
+#Insimg button {
+    position: relative;
+    top: 286px;
+    right: -492px;
+}
+
+#Search {
+    background-color: #f68b1a;
+    height: 300px;
+    position: relative;
+    top: -689px;
+}
+
+#Search-button button:hover {
+    background-color: #f05630;
+}
+
+#Search #img2 {
+    float: right;
+    position: relative;
+    top: 82px
+}
+
+#Search b {
+    color: #ffff;
+    font-size: larger;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+
+#Search p {
+    color: #ffff;
+    font-size: medium;
+    font-size: 16px;
+}
+
+#Search button {
+    background-color: #f79c41;
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffff;
+    width: 120px;
+    font-size: 15px;
+    border: 1px solid #ffff;
+}
+
+#Search-button {
+    position: relative;
+    top: -120px;
+    right: -120px;
+}
+
+#Search #img1 {
+    position: relative;
+    top: -13px;
+    right: -75px;
+}
+
+#Footer1 {
+    background-color: #6D6E71;
+    padding: 30px;
+    position: relative;
+    top: -689px;
+}
+
+#Footer1 a {
+    text-decoration: none;
+    font-size: small;
+    width: 180px;
+}
+
+#Footer1 a,
+#Footer1 b {
+    color: #ffff;
+    display: block;
+    margin-left: 90px;
+    line-height: 21px;
+}
+
+#Footer1 b {
+    font-size: medium;
+}
+
+#Footer1 div {
+    display: inline-block;
+}
+
+#Footer1 a:hover {
+    text-decoration: underline;
+}
+
+#Footer2 {
+    background-color: #414042;
+    color: #ffff;
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    text-align: end;
+    position: relative;
+    top: -702px;
+}
+
+#Footer2 p {
+    margin-right: 70px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#Footer1 div:nth-child(3),
+#Footer1 div:nth-child(4) {
+    position: relative;
+    top: -20px;
+}
+
